@@ -54,4 +54,7 @@ SELECT * FROM `produto`;
 SELECT * FROM `cliente`;
 
 INSERT INTO `user` (`name`, `username`, `birthDate`, `password`, `email`, `sex`, `status`, `createdAt`) VALUES
-    ('admin', 'admin', '1990-05-15', '$2b$10$9XMuPNK2icx12i1GDEZeuejzWpUCs2NLVgc2zDNcire1CfOdqxzQ2', 'admin@hotmail.com', 'Masculino', 'Ativado', '0000-00-00');
+    ('admin', 'admin', '1990-05-15', '$2a$10$884xE9YW0YY6mySciO5i4u8ydlBUX1C2CdTWtHZcNXKa/7O5ygozq', 'admin@hotmail.com', 'Masculino', 'Ativo', DEFAULT);
+    
+    
+SELECT * FROM `user`;

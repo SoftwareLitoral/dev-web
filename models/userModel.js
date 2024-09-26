@@ -10,7 +10,7 @@ class UserModel {
         password,
         email,
         sex,
-        status = 'Ativado',
+        status = 'Ativo',
         createdAt = new Date(),
         updatedAt,
     }) {
